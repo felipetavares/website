@@ -3,5 +3,11 @@
 	border: 1px solid black;
 	color: white;
 	font-size: 100px;
-	background-image: url("../logo/banner.png");
+	background: black;
+	position: relative;
+}
+
+.bannerimg {
+	position: absolute;
+	right: 0;
 }
