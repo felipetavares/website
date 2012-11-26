@@ -20,12 +20,13 @@
 
 .menuitem {
 	float: left;
-	height: 24px;
-	margin: 2px;
+	height: 28px;
+	margin: 0 2px;
 	font-size: 18px;
 	background: black;
 	border: 1px solid #0090ff;
 	padding: 2px;
+	padding-top: 6px;
 	overflow: hidden;
 	display: relative;
 	color: #00ffff;
