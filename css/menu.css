@@ -24,6 +24,7 @@
 	float: left;
 	height: 24px;
 	margin: 2px;
+	font-size: 18px;
 	background: black;
 	border: 1px solid #00ffff;
 	padding: 2px;
@@ -84,4 +85,9 @@
 		color-stop(0.06, rgb(61,57,61)),
 		color-stop(0.58, rgb(7,15,15))
 	);
+}
+
+.footerspacer {
+	height: 150px;
+	background: none;
 }
