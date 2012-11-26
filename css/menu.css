@@ -20,17 +20,18 @@
 
 .menuitem {
 	float: left;
-	height: 28px;
+	height: 22px;
 	margin: 0 2px;
 	font-size: 18px;
 	background: black;
-	border: 1px solid #0090ff;
+	border: 2px solid #0090ff;
 	padding: 2px;
 	padding-top: 6px;
 	overflow: hidden;
 	display: relative;
 	color: #00ffff;
 	text-align: center;
+	border-radius: 8px;
 }
 
 .menudrop {
