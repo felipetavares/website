@@ -55,7 +55,7 @@
 	background-image: url(../images/ui/menu.png);
 }
 
-.menuitem .fleft:hover {
+.fleft:hover {
 	box-shadow: 0px 3px 0px #00ffff;
 }
 
