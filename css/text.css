@@ -1,8 +1,10 @@
 .textarea {
+	/*
 	border: 2px solid black;
 	border-left: 1px dashed black;
 	border-right: 1px dashed black;
+	*/
 	width: 750px;
-	margin: 50px auto;
+	margin: 30px auto;
 	padding: 0.2cm;
 }
