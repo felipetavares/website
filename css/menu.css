@@ -18,6 +18,7 @@
 
 .fleft {
 	float: left;
+	cursor: pointer;
 }
 
 .menuitem {
@@ -28,7 +29,6 @@
 	background: black;
 	border: 1px solid #0090ff;
 	padding: 2px;
-	cursor: pointer;
 	overflow: hidden;
 	display: relative;
 	color: #00ffff;

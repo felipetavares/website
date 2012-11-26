@@ -1,4 +1,4 @@
-$(".menuitem .fleft").click (function () {
+$(".fleft").click (function () {
 	if (this.open) {
 		$(this).parent().animate({"width":$(this).width()},300);
 		$(this).parent().children(".menudrop").animate({},300);
@@ -13,4 +13,12 @@ $(".menuitem .fleft").click (function () {
 		function () {$(this).css({"display":"block"})});
 		this.open = true;
 	}
+})
+
+$(".menuitem").hover (function() {},
+function () {
+	$(this).animate({"width":$(this).children(".fleft").width()},300);
+	$(this).children(".menudrop").animate({},300);
+	$(this).children(".menudrop").css({"display":"none"});
+	this.open = false;
 })
