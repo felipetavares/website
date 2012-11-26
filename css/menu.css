@@ -22,13 +22,15 @@
 }
 
 .menudropitem {
-	background: blue;
 	float: right;
 	display: absolute;
 	height: 34px;
 	padding: 2px;
 
 	margin-right: 4px;
+
+	border: 1px solid #00ffff;
+	background: black;
 }
 
 .menudropitem:hover {
