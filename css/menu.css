@@ -1,19 +1,23 @@
 .menubar {
-	height: 50px;
+	height: 34px;
 	background: black;
 	background-image: url(../images/ui/menu.png);
+	box-shadow: 0px 3px 3px black;
 }
 
 .menuitem {
 	float: left;
-	height: 37px;
+	height: 24px;
 	margin: 2px;
-	background: yellow;
-	padding: 4px;
+	background: black;
+	border: 1px solid #00ffff;
+	padding: 2px;
 	cursor: pointer;
 	overflow: hidden;
 	display: relative;
 	width: 50px;
+	color: #00ffff;
+	text-align: center;
 }
 
 .menudrop {
@@ -24,24 +28,26 @@
 .menudropitem {
 	float: right;
 	display: absolute;
-	height: 34px;
+	height: 16px;
 	padding: 2px;
 
 	margin-right: 4px;
 
 	border: 1px solid #00ffff;
 	background: black;
+	color: #00ff
 }
 
 .menudropitem:hover {
-	background: green;
+	background: #3496c7;
 }
 
 .menuitem:hover {
-	background: red;
+	background: #003030;
 }
 
 .footer {
+	box-shadow: 0px -3px 3px black;
 	position: absolute;
 	bottom: 0;
 	height: 100px;
