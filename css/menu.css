@@ -7,10 +7,17 @@
 }
 
 .menucenter {
+	/*
+	Centering
 	display: table;
 	width: auto;
 	background: none;
 	margin: 0 auto;
+	*/
+}
+
+.fleft {
+	float: left;
 }
 
 .menuitem {
@@ -23,7 +30,6 @@
 	cursor: pointer;
 	overflow: hidden;
 	display: relative;
-	width: 50px;
 	color: #00ffff;
 	text-align: center;
 }
@@ -63,7 +69,7 @@
 	color: white;
 	text-align: center;
 	padding-top: 8px;
-	border-top: 4px solid #307070;
+	border-top: 4px solid #54c6f7;
 
 	background-image: linear-gradient(bottom, rgb(61,57,61) 6%, rgb(7,15,15) 58%);
 	background-image: -o-linear-gradient(bottom, rgb(61,57,61) 6%, rgb(7,15,15) 58%);
