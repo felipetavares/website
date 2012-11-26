@@ -1,6 +1,7 @@
 .menubar {
 	height: 50px;
-	background: green;
+	background: black;
+	background-image: url(../images/ui/menu.png);
 }
 
 .menuitem {
@@ -47,6 +48,7 @@
 	text-align: center;
 	padding-top: 8px;
 	border-top: 4px solid #307070;
+
 	background-image: linear-gradient(bottom, rgb(61,57,61) 6%, rgb(7,15,15) 58%);
 	background-image: -o-linear-gradient(bottom, rgb(61,57,61) 6%, rgb(7,15,15) 58%);
 	background-image: -moz-linear-gradient(bottom, rgb(61,57,61) 6%, rgb(7,15,15) 58%);
