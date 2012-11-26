@@ -1,10 +1,12 @@
 .menubar {
 	height: 80px;
-	border: 1px solid red;
+	background: green;
 }
 
-
 .footer {
+	position: absolute;
+	bottom: 0;
 	height: 100px;
-	border: 1px solid black;
+	width: 100%;
+	background: red;
 }
