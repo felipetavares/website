@@ -6,9 +6,9 @@ $(".menuitem").click (function () {
 		this.open = false;
 	}
 	else {
-		$(this).children(".menudrop").animate({"width":"100%"},0,
+		$(this).animate({"width":300},300);
+		$(this).children(".menudrop").animate({"width":"100%"},300,
 		function () {$(this).css({"display":"block"})});
-		$(this).animate({"width":width},300);
 		this.open = true;
 	}
 })
