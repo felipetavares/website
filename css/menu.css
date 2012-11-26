@@ -10,18 +10,28 @@
 	background: yellow;
 	padding: 4px;
 	cursor: pointer;
-	position: relative;
 	overflow: hidden;
+	display: relative;
+	width: 50px;
 }
 
 .menudrop {
 	background: green;
-	width: 0;
+	display: none;
 }
 
 .menudropitem {
 	background: blue;
-	display: inline;
+	float: right;
+	display: absolute;
+	height: 34px;
+	padding: 2px;
+
+	margin-right: 4px;
+}
+
+.menudropitem:hover {
+	background: green;
 }
 
 .menuitem:hover {
