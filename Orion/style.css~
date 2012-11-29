@@ -197,7 +197,7 @@ box-shadow:0 0 5px #000;
 #blogname h1{
 	font-family: 'LiberationSerifRegular',Georgia, Arial, Tahoma, sans-serif;
 	font-size:36px;
-	padding:10px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
 	}
 
 #blogname h1 a:link,#blogname h1 a:visited{
