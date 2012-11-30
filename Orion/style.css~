@@ -183,6 +183,7 @@ box-shadow:0 0 5px #000;
 
 .top{
 	background:#fff url(images/top.png) bottom repeat-x;
+	box-shadow: 3px 3px 3px #d0d0d0;
 	}
 
 .head{
@@ -197,7 +198,7 @@ box-shadow:0 0 5px #000;
 #blogname h1{
 	font-family: 'LiberationSerifRegular',Georgia, Arial, Tahoma, sans-serif;
 	font-size:36px;
-	padding:0px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
 	}
 
 #blogname h1 a:link,#blogname h1 a:visited{
@@ -261,7 +262,12 @@ box-shadow:0 0 5px #000;
 	
 #botmenu{
 
+	float: right;
+
 	margin:10px 0px 0px 0px;
+	
+	margin-top: 25px;
+
 	font-size: 12px;
 	overflow:hidden;
 
@@ -743,7 +749,7 @@ table#wp-calendar {
 .footcover{
 	background:url(images/dark.png);
 	padding:0px 10px!important;
-
+	box-shadow-top: 30px #303030;
 }
 
 #bottom{

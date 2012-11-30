@@ -31,6 +31,12 @@
 <link rel="stylesheet" href="stylesheets/base.css">
 <link rel="stylesheet" href="stylesheets/layout.css">
 <link rel="stylesheet" href="responsive-style.css">
+    <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+
 
 <script type='text/javascript' src='js/l10n.js?ver=20101110'></script>
 <script type='text/javascript' src='js/jquery.js?ver=1.4.4'></script>
@@ -66,7 +72,7 @@ display:none;
 
 <div class="topbar">
 	<div class="container">
-		<div class="topfeed"> <a href="http://jinsonathemes.com/fabs/?feed=rss2" > Subscribe to RSS feed </a> </div>
+		
 	</div>
 </div>
 
@@ -75,24 +81,23 @@ display:none;
 		<div class="sixteen columns head">	
 			<div class="four columns alpha">
 				<div id="blogname">	
-					<h1><a href="http://www.powerbit.comuf.com/" title="PowerBit"> <img src="images/desenho.png" width="225px" height="80px" align="center"> </a></h1>
+					<h1><a href="http://www.powerbit.comuf.com/" title="PowerBit"> <img src="images/desenho.png" width="227px" height="80px" align="center"> </a></h1>
 				</div>
 			</div>
 			<div class="twelve columns omega">
 				<div id="botmenu">
-					<div id="submenu" class="menu-primary-container"><ul id="menu-primary" class="sfmenu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="http://www.jinsonathemes.com/fabs/">Home</a></li>
-<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="http://jinsonathemes.com/fabs/?page_id=26">About</a></li>
-<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="http://jinsonathemes.com/fabs/?page_id=31">Parent Page</a>
+					<div id="submenu" class="menu-primary-container"><ul id="menu-primary" class="sfmenu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="http://www.powerbit.comuf.com">Início</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="http://jinsonathemes.com/fabs/?page_id=26">Projetos</a>
 <ul class="sub-menu">
-	<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="http://jinsonathemes.com/fabs/?page_id=33">Sub Page</a></li>
-	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://jinsonathemes.com/fabs/?page_id=41">Sub Page-2</a></li>
-</ul>
+	<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="http://jinsonathemes.com/fabs/?page_id=33">Automação</a></li>
+	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://jinsonathemes.com/fabs/?page_id=41">Eletrônica</a></li>
+	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://jinsonathemes.com/fabs/?page_id=41">Programação</a></li>
+	</ul>
 </li>
-<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="http://jinsonathemes.com/fabs/?page_id=35">Page 1</a></li>
-<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="http://jinsonathemes.com/fabs/?page_id=37">Page 2</a></li>
-<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="http://jinsonathemes.com/fabs/?page_id=39">Full wide</a></li>
-<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="http://jinsonathemes.com/fabs/?page_id=120">Blog</a></li>
-<li id="menu-item-318" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-318"><a href="http://jinsonathemes.com/fabs/?category_name=featured">Featured</a></li>
+
+<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="http://jinsonathemes.com/fabs/?page_id=31">Blog</a></li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="http://jinsonathemes.com/fabs/?page_id=120">Arquivos</a></li>
+<li id="menu-item-318" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-318"><a href="http://jinsonathemes.com/fabs/?category_name=featured">Sobre</a></li>
 </ul></div>				</div>
 			</div>
 		</div>
@@ -102,25 +107,20 @@ display:none;
 
 <div class="container">
 <div class="slidebox">
-<div class="flexslider">
-	<ul class="slides">	
-			
-		<li>
-			<a href="http://jinsonathemes.com/fabs/?p=17"><img class="slideimg" src="images_layout/269500_439655192761315_1839295720_n.jpg" title="" alt="" /></a>
-		</li>
-			
-		<li>
-			<a href="http://jinsonathemes.com/fabs/?p=15"><img class="slideimg" src="images_layout/matriz-7x5.jpg" title="" alt="" /></a>
-		</li>
-			
-		<li>
-			<a href="http://jinsonathemes.com/fabs/?p=13"><img class="slideimg" src="images_layout/vladstudio_snail_racing_1024x768.jpg" title="" alt="" /></a>
-		</li>
-			
-		<li>
-			<a href="http://jinsonathemes.com/fabs/?p=11"><img class="slideimg" src="images_layout/vladstudio_ladybug_and_chameleon_1024x768.jpg" title="" alt="" /></a>
-		</li>
-			</ul>
+
+<div id="wrapper">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="nivo-slider/demo/images/toystory.jpg" data-thumb="nivo-slider/demo/images/toystory.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="nivo-slider/demo/images/up.jpg" data-thumb="nivo-slider/demo/images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="nivo-slider/demo/images/walle.jpg" data-thumb="nivo-slider/demo/images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="nivo-slider/demo/images/nemo.jpg" data-thumb="nivo-slider/demo/images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
 </div>
 </div>
 </div>
@@ -432,6 +432,15 @@ wptdb.innerHTML = '<div class="wpthemedemobar_wrapper"><div class="wptdb_left"><
 
 
 </div>
+
+<script type="text/javascript" src="nivo-slider/demo/scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
 </body>
 </html>      
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
