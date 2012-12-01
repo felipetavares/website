@@ -16,8 +16,8 @@
 <![endif]-->
 <head>
 <meta charset="UTF-8" />
-
-<title>PowerBit</title>
+<link rel="shortcut icon" href="images/Power-Logo.ico" type="image/x-icon" />
+<title>PowerPic - Início</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -81,23 +81,26 @@ display:none;
 		<div class="sixteen columns head">	
 			<div class="four columns alpha">
 				<div id="blogname">	
-					<h1><a href="http://www.powerbit.comuf.com/" title="PowerBit"> <img src="images/desenho.png" width="227px" height="80px" align="center"> </a></h1>
+					<h1><a href="http://powerpic.net23.net/" title="PowerPic"> <img src="images/desenho.png" width="227px" height="80px" align="center"> </a></h1>
 				</div>
 			</div>
 			<div class="twelve columns omega">
 				<div id="botmenu">
-					<div id="submenu" class="menu-primary-container"><ul id="menu-primary" class="sfmenu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="http://www.powerbit.comuf.com">Início</a></li>
-<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="http://jinsonathemes.com/fabs/?page_id=26">Projetos</a>
+					<div id="submenu" class="menu-primary-container"><ul id="menu-primary" class="sfmenu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="index.html">Início</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="projects.html">Projetos</a>
 <ul class="sub-menu">
-	<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="http://jinsonathemes.com/fabs/?page_id=33">Automação</a></li>
-	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://jinsonathemes.com/fabs/?page_id=41">Eletrônica</a></li>
-	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://jinsonathemes.com/fabs/?page_id=41">Programação</a></li>
+
+	<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="projects.automation.html">Automação</a></li>
+
+	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="projects.electronic.html">Eletrônica</a></li>
+
+	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="projects.programation.html">Programação</a></li>
 	</ul>
 </li>
 
-<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="http://jinsonathemes.com/fabs/?page_id=31">Blog</a></li>
+<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="http://powerpic.wordpress.com/">Blog</a></li>
 <li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="http://jinsonathemes.com/fabs/?page_id=120">Arquivos</a></li>
-<li id="menu-item-318" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-318"><a href="http://jinsonathemes.com/fabs/?category_name=featured">Sobre</a></li>
+<li id="menu-item-318" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-318"><a href="about.html">Sobre</a></li>
 </ul></div>				</div>
 			</div>
 		</div>
@@ -112,19 +115,14 @@ display:none;
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
 
-        <img src="images_layout/matriz-7x5.jpg"   alt="" /> 
+	<a href="posts/neomatrix.html" /><img src="images_layout/DSC00840.JPG" " alt="" title="Projeto NeoMatrix. Por Aderson Manoel e Felipe Tavares." ></a>
 
-	<img src="nivo-slider/demo/images/up.jpg"  alt="" title="This is an example of a caption"  /></a>
+        <a href="posts/ex.matriz.html"><img src="images_layout/matriz-7x5.jpg"   alt="" title="Primeira experiência com <em>Matriz De Leds</em> . Por Anderson Manoel." /> </a>
 
-	<img src="images_layout/269500_439655192761315_1839295720_n.jpg" alt="" />
-
-	<img src="DSC00840.JPG" " alt="" title="#htmlcaption" />
+	<a href="posts/term.digital.html"><img src="images_layout/269500_439655192761315_1839295720_n.jpg" alt="" title="Desenvolvimento de um termômetro Digital com Arduino Mega." /></a>
            
 	
 	</div>
-
-           		 <div id="htmlcaption" class="nivo-html-caption">
-   		 <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
             </div>
         </div>
 

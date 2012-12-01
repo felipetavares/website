@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 </head>
 <body>
-    <div id="wrapper">
+    <div id="wrapper" width="90px">
         <a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios">dev7studios</a>
 
         <div class="slider-wrapper theme-default">
