@@ -43,6 +43,10 @@
 <script type='text/javascript' src='../js/jquery.flexslider-min.js?ver=3.1'></script>
 <script type='text/javascript' src=../js/jquery.mobilemenu.js?ver=3.1'></script>
 <script type='text/javascript' src='../js/comment-reply.js?ver=20090102'></script>
+
+
+       
+
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wlwmanifest.xml" /> 
 
@@ -57,13 +61,33 @@
   </script>
 <link rel="stylesheet" href="../default.css" type="text/css" />
 <script type="text/javascript" src="../js/qtip.js"></script>
+
 <style type="text/css">
   #wpthemedemobar{
 display:none;
-}
-  </style>
-<!-- End Wordpress Theme Demo Bar Plugin wp_head -->
 
+}
+
+</style>
+
+ <style>
+
+            /* Demo styles */
+            
+            body{border-top:4px solid #000;}
+            .content{color:#777;font:12px/1.4 "helvetica neue",arial,sans-serif;width:620px;margin:20px auto;}
+            h1{font-size:12px;font-weight:normal;color:#ddd;margin:0;}
+            p{margin:0 0 20px}
+            a {color:#22BCB9;text-decoration:none;}
+            .cred{margin-top:20px;font-size:11px;}
+
+            /* This rule is read by Galleria to define the gallery height: */
+            #galleria{height:320px}
+
+        </style>
+
+ <!-- load Galleria -->
+        <script src="../js/galleria-1.2.8.min.js"></script>
 
 </head>
 <body class="single single-post postid-130 single-format-standard" >
@@ -82,8 +106,12 @@ display:none;
 					<h1><a href="http://powerpic.net23.net/" title="PowerPic"> <img src="../images/desenho.png" width="227px" height="80px" align="center"> </a></h1>
 				</div>
 			</div>
-			<div class="twelve columns omega">
+
+
+			<div class="twelve columns omega"> 
 				<div id="botmenu">
+
+
 					<div id="submenu" class="menu-primary-container"><ul id="menu-primary" class="sfmenu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="../index.html">Início</a></li>
 <li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="../projects.html">Projetos</a>
 <ul class="sub-menu">
@@ -113,12 +141,27 @@ display:none;
 <article class="post" id="post-130">
 
 <div class="title">
-<h2><a href="http://jinsonathemes.com/fabs/?p=130" rel="bookmark" title="Permanent Link to Maecenas porta tempus consequat.">Maecenas porta tempus consequat.</a></h2>
+<h2><a href="http://jinsonathemes.com/fabs/?p=130" rel="bookmark" title="Permanent Link to Maecenas porta tempus consequat.">A Primeira Matriz de Leds.</a></h2>
 </div>
 
+
 <div class="postmeta">
-		<span class="author">Posted by jinson </span>
-		<span class="clock"> Posted on Aug - 2 - 2011</span>
+		<span class="author">Postado por Anderson Manoel </span>
+		<span class="clock"> Postado em  1 - dez - 2012</span>
+</div>
+</br>
+<div id="galleria">
+
+            <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/800px-Locomotives-Roundhouse2.jpg">
+                <img data-title="Locomotives Roundhouse"
+                     data-description="Steam locomotives of the Chicago &amp; North Western Railway."
+                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/100px-Locomotives-Roundhouse2.jpg">
+            </a>
+            <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/1000px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+                <img data-title="Icebergs in the High Arctic"
+                     data-description="”The debris loading isn't particularly extensive, but the color is usual.”"
+                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/100px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+            </a>
 </div>
 
 
@@ -377,6 +420,28 @@ wptdb.innerHTML = '<div class="wpthemedemobar_wrapper"><div class="wptdb_left"><
 
 
 </div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36738855-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('../galleria/themes/classic/galleria.classic.min.js');
+
+    // Initialize Galleria
+    Galleria.run('#galleria');
+
+    </script>
 </body>
 </html>      
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
