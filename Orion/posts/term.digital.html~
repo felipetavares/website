@@ -16,7 +16,7 @@
 <![endif]-->
 <head>
 <meta charset="UTF-8" />
-<link rel="shortcut icon" href="../images/Power-Logo.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../images/FAVICON.ico" type="image/x-icon" />
 
 <title>PowerPic - Termômetro Digital</title>
 
@@ -64,6 +64,24 @@ display:none;
   </style>
 <!-- End Wordpress Theme Demo Bar Plugin wp_head -->
 
+ <style>
+
+            /* Demo styles */
+            
+            body{border-top:4px solid #000;}
+            .content{color:#777;font:12px/1.4 "helvetica neue",arial,sans-serif;width:620px;margin:20px auto;}
+            h1{font-size:12px;font-weight:normal;color:#ddd;margin:0;}
+            p{margin:0 0 20px}
+            a {color:#22BCB9;text-decoration:none;}
+            .cred{margin-top:20px;font-size:11px;}
+
+            /* This rule is read by Galleria to define the gallery height: */
+            #galleria{height:380px}
+
+</style>
+
+ <!-- load Galleria -->
+        <script src="../galleria/galleria-1.2.8.js"></script>
 
 </head>
 <body class="single single-post postid-130 single-format-standard" >
@@ -121,7 +139,27 @@ display:none;
 		<span class="clock"> Posted on Aug - 2 - 2011</span>
 </div>
 
+<div id="galleria">
 
+            
+            <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/1000px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+                <img data-title="Icebergs in the High Arctic"
+                     data-description="”The debris loading isn't particularly extensive, but the color is usual.”"
+                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/100px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+            </a>
+
+<a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/800px-Locomotives-Roundhouse2.jpg">
+                <img data-title="Locomotives Roundhouse"
+                     data-description="Steam locomotives of the Chicago &amp; North Western Railway."
+                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/100px-Locomotives-Roundhouse2.jpg">
+            </a>
+
+<a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/800px-Locomotives-Roundhouse2.jpg">
+                <img data-title="Locomotives Roundhouse"
+                     data-description="Steam locomotives of the Chicago &amp; North Western Railway."
+                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/100px-Locomotives-Roundhouse2.jpg">
+            </a>
+</div>
 <div class="entry">
 <p>Donec iaculis, orci a vehicula semper, nunc velit auctor nibh, vitae condimentum odio nibh vitae sapien. Donec malesuada pellentesque mattis. Praesent varius, lectus vel tempus tincidunt, felis turpis lobortis turpis, eget porttitor turpis urna eget ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla eu nibh ac leo fringilla tincidunt. Sed adipiscing nisl sed leo accumsan a dapibus nibh gravida! Nullam gravida lectus rhoncus erat luctus ultrices! Maecenas porta tempus consequat. Curabitur sed risus sed metus cursus rhoncus sit amet et diam. Quisque mi lacus, adipiscing id pharetra et, ullamcorper ut augue. In hac habitasse platea dictumst. Vivamus placerat; tortor vel ultricies adipiscing, urna urna tristique tortor, sit amet rutrum lorem lacus eget odio. Etiam cursus lorem sit amet lorem feugiat venenatis. Morbi at velit mi, in rhoncus velit!</p>
 <div class="clear"></div>
@@ -391,7 +429,15 @@ wptdb.innerHTML = '<div class="wpthemedemobar_wrapper"><div class="wptdb_left"><
   })();
 
 </script>
+    <script>
 
+    // Load the classic theme
+    Galleria.loadTheme('../galleria/themes/classic/galleria.classic.min.js');
+
+    // Initialize Galleria
+    Galleria.run('#galleria');
+
+    </script>
 </body>
 </html>      
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/

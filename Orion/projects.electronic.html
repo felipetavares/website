@@ -16,7 +16,7 @@
 <![endif]-->
 <head>
 <meta charset="UTF-8" />
-<link rel="shortcut icon" href="images/Power-Logo.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/FAVICON.ico" type="image/x-icon" />
 <title>PowerPic - Eletrônica</title>
 
 <!-- Mobile Specific Metas
@@ -65,6 +65,26 @@ display:none;
 }
   </style>
 <!-- End Wordpress Theme Demo Bar Plugin wp_head -->
+
+ <style>
+
+            /* Demo styles */
+            
+            body{border-top:4px solid #000;}
+            .content{color:#777;font:12px/1.4 "helvetica neue",arial,sans-serif;width:620px;margin:20px auto;}
+            h1{font-size:12px;font-weight:normal;color:#ddd;margin:0;}
+            p{margin:0 0 20px}
+            a {color:#22BCB9;text-decoration:none;}
+            .cred{margin-top:20px;font-size:11px;}
+
+            /* This rule is read by Galleria to define the gallery height: */
+            #galleria{height:380px}
+
+</style>
+
+ <!-- load Galleria -->
+        <script src="galleria/galleria-1.2.8.js"></script>
+
 
 
 </head>
@@ -119,6 +139,7 @@ display:none;
 <div class="postmeta">
 	<span class="author">Posted by jinson </span> <span class="clock">  Jan - 31 - 2011</span>
 </div>
+
 
 <div class="entry">
 	<img class="postimg scale-with-grid" src="http://jinsonathemes.com/fabs/wp-content/themes/Orion/timthumb.php?src=http://jinsonathemes.com/fabs/wp-content/uploads/2011/01/vladstudio_wheresmilesareborn_2009_1024x768.jpg&amp;h=180&amp;w=300&amp;zc=1" alt="" />
@@ -489,7 +510,15 @@ wptdb.innerHTML = '<div class="wpthemedemobar_wrapper"><div class="wptdb_left"><
   })();
 
 </script>
+    <script>
 
+    // Load the classic theme
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+
+    // Initialize Galleria
+    Galleria.run('#galleria');
+
+    </script>
 </body>
 
 </html>      
