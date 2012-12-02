@@ -16,7 +16,7 @@
 <![endif]-->
 <head>
 <meta charset="UTF-8" />
-<link rel="shortcut icon" href="images/Power-Logo.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/FAVICON.ico" type="image/x-icon" />
 
 <title>PowerPic - Sobre</title>
 
@@ -63,6 +63,25 @@ display:none;
 }
   </style>
 <!-- End Wordpress Theme Demo Bar Plugin wp_head -->
+ <style>
+
+            /* Demo styles */
+            
+            body{border-top:4px solid #000;}
+            .content{color:#777;font:12px/1.4 "helvetica neue",arial,sans-serif;width:620px;margin:20px auto;}
+            h1{font-size:12px;font-weight:normal;color:#ddd;margin:0;}
+            p{margin:0 0 20px}
+            a {color:#22BCB9;text-decoration:none;}
+            .cred{margin-top:20px;font-size:11px;}
+
+            /* This rule is read by Galleria to define the gallery height: */
+            #galleria{height:380px}
+
+</style>
+
+ <!-- load Galleria -->
+        <script src="galleria/galleria-1.2.8.js"></script>
+
 
 
 </head>
@@ -120,6 +139,7 @@ display:none;
 		<span class="author">Posted by jinson </span>
 		<span class="clock"> Posted on Aug - 2 - 2011</span>
 </div>
+
 
 
 <div class="entry">
@@ -390,6 +410,16 @@ wptdb.innerHTML = '<div class="wpthemedemobar_wrapper"><div class="wptdb_left"><
   })();
 
 </script>
+
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+
+    // Initialize Galleria
+    Galleria.run('#galleria');
+
+    </script>
 </body>
 </html>      
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
