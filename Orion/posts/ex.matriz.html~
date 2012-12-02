@@ -149,18 +149,20 @@ display:none;
 		<span class="author">Postado por Anderson Manoel </span>
 		<span class="clock"> Postado em  1 - dez - 2012</span>
 </div>
-</br>
+
 <div id="galleria">
 
-            <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/800px-Locomotives-Roundhouse2.jpg">
-                <img data-title="Locomotives Roundhouse"
-                     data-description="Steam locomotives of the Chicago &amp; North Western Railway."
-                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/100px-Locomotives-Roundhouse2.jpg">
-            </a>
+            
             <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/1000px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
                 <img data-title="Icebergs in the High Arctic"
                      data-description="”The debris loading isn't particularly extensive, but the color is usual.”"
                      src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/100px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+            </a>
+
+<a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/800px-Locomotives-Roundhouse2.jpg">
+                <img data-title="Locomotives Roundhouse"
+                     data-description="Steam locomotives of the Chicago &amp; North Western Railway."
+                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/100px-Locomotives-Roundhouse2.jpg">
             </a>
 </div>
 
